@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.background {
+  position: absolute;
+  right: 0;
+  z-index: -999;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.loves {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+  z-index: -9;
+}
+
+.loves2 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 13%;
+  right: 0;
+  z-index: -9;
+}
+
+.app {
+  overflow: auto;
+}
